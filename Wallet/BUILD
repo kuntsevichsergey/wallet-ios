@@ -171,7 +171,6 @@ ios_application(
     bundle_id = wallet_bundle_id,
     families = ["iphone", "ipad"],
     minimum_os_version = "9.0",
-    provisioning_profile = "//build-input/data/provisioning-profiles:Wallet.mobileprovision",
     infoplists = [
         ":WalletInfoPlist.plist",
     ],
