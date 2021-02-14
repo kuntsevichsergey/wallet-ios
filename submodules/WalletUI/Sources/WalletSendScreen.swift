@@ -281,10 +281,10 @@ private func walletSendScreenEntries(presentationData: WalletPresentationData, b
     entries.append(.addressHeader(presentationData.theme, presentationData.strings.Wallet_Send_AddressHeader))
     entries.append(.address(presentationData.theme, presentationData.strings.Wallet_Send_AddressText, state.address))
     entries.append(.addressInfo(presentationData.theme, presentationData.strings.Wallet_Send_AddressInfo))
-        
-    entries.append(.commentHeader(presentationData.theme, presentationData.strings.Wallet_Receive_CommentHeader))
-    entries.append(.comment(presentationData.theme, presentationData.strings.Wallet_Receive_CommentInfo, state.comment, sendEnabled))
-    
+//        
+//    entries.append(.commentHeader(presentationData.theme, presentationData.strings.Wallet_Receive_CommentHeader))
+//    entries.append(.comment(presentationData.theme, presentationData.strings.Wallet_Receive_CommentInfo, state.comment, sendEnabled))
+//    
     return entries
 }
 
